@@ -11,7 +11,6 @@ Option Compare Text
 Module FortuneCookie
 
     Sub Main()
-        Randomize()
         Dim number As Integer = CInt(Int((10 * Rnd()) + 1))
 
         Console.WriteLine("Your fortune cookie reads:")
