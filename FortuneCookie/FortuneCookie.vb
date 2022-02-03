@@ -11,12 +11,12 @@ Option Compare Text
 Module FortuneCookie
 
     Sub Main()
-        Randomize()
-        Dim number As Integer = CInt(Int((10 * Rnd()) + 1))
+        Randomize() 'generates the Randomize function
+        Dim number As Integer = CInt(Int((10 * Rnd()) + 1)) 'sets a random number between 1 and 10
 
         Console.WriteLine("Your fortune cookie reads:")
 
-        Select Case number
+        Select Case number 'displays the case based off the random number generated
             Case 1
                 Console.WriteLine("The only thing we have to fear is fear itself... And weasels (those little suckers will get you everytime!)")
             Case 2
